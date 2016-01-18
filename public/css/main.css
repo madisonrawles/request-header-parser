@@ -15,12 +15,32 @@
 }
 
 /****** Main Styling ******/
-
+.main{
+	background-color: white;
+	margin: auto;
+	margin-bottom: 0px;
+	width: 700px;
+	padding: 50px;
+	margin-top: 50px;
+	padding-bottom: 5px;
+}
+a:link{
+	text-decoration: none;
+}
+.aboutme{
+	text-align: center;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	height: 30px;
+}
 body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	margin: 0;
 	padding: 0;
+	background-color: #3399ff;
 }
 
 header {
@@ -96,6 +116,7 @@ header a ~ p {
 	float: left;
 	margin-left: 10px
 }
+
 
 /****** Logo Div Styling ******/
 

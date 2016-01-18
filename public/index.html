@@ -3,15 +3,21 @@
         <link href="/public/css/main.css" rel="stylesheet" type="text/css">
     </head>
     
-    <body>API Basejump: Timestamp microservice
-User stories:
-1) I can pass a string as a parameter, and it will check to see whether that string contains either a unix timestamp or a natural language date (example: January 1, 2016)
-2) If it does, it returns both the Unix timestamp and the natural language form of that date.
-3) If it does not contain a date or Unix timestamp, it returns null for those properties.
-Example usage:
-https://timestamp-ms.herokuapp.com/December%2015,%202015
-https://timestamp-ms.herokuapp.com/1450137600
-Example output:
-{ "unix": 1450137600, "natural": "December 15, 2015" }
+    <body>
+        <div class="main">
+        <h2>API Basejump: Timestamp microservice</h2>
+        <h4>User stories:
+        <ul>
+            <li> I can pass a string as a parameter, and it will check to see whether that string contains either a unix timestamp or a natural language date (example: January 1, 2016)</li>
+            <li> If it does, it returns both the Unix timestamp and the natural language form of that date.</li>
+            <li>If it does not contain a date or Unix timestamp, it returns null for those properties.</li></ul></h4>
+        <h3><p>Example usage:</p>
+        <code>https://timestamp-breffmint.c9users.io/December%2015,%202015</code><br/>
+        <code>https://timestamp-breffmint.c9users.io/1450137600</code>
+        <p>Example output:</p>
+        <code>{ "unix": 1450137600, "natural": "December 15, 2015" }</code></h3>
+        </div>
+        <div class="aboutme"><p><h4>Made for <a href="http://freecodecamp.com" target="_blank">Free Code Camp</a> by <a href="https://github.com/madisonrawles">Madison Rawles</a></h4></p></div>
+        
     </body>
 </html>
